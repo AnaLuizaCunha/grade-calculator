@@ -11,7 +11,7 @@ Uma aplicação web simples desenvolvida com HTML, CSS e JavaScript que permite 
 
 ## 🖼️ Demonstração
 
-![Captura de tela do projeto](![Print da tela do projeto Calculadora de Médias](image.png))
+[Print da tela do projeto Calculadora de Médias](image.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
