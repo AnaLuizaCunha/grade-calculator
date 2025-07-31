@@ -8,6 +8,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1.8rem;
+  background-color: #1a202c;
+  color: #e2e8f0;
+  font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 500;
 }
 
 main section {
@@ -15,7 +25,7 @@ main section {
   flex-direction: column;
   width: 20rem;
   gap: 1rem;
-  background-color: #b0d197;
+  background-color: #2d3748;
   padding: 1.5rem;
   border-radius: 10px;
 }
@@ -27,11 +37,51 @@ main section {
   gap: 1.5rem;
 }
 
+.grade-input {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.grade-input input {
+  background-color: #2d3748;
+  border: solid 1px #38b2ac;
+  border-radius: 5px;
+  color: #e2e8f0;
+  padding-left: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+#btn-adicionar {
+  background-color: #38b2ac;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #e2e8f0;
+}
+
 main section textarea {
   width: 100%;
   height: 10rem;
+  resize: none;
+  background-color: #2d3748;
+  border: solid 1px #38b2ac;
+  color: #e2e8f0;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-size: "Roboto", sans-serif;
 }
 
 main section button {
   width: 7rem;
+  color: #e2e8f0;
+  background-color: #4a5568;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#show-average {
+  color: #68d391;
 }
